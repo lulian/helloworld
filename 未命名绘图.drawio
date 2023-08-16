@@ -1,9 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T01:09:16.670Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.8" etag="iRd0WLwQGd0YWv2R_m3s" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T01:23:19.423Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="YDzCYEi-n3o8pY-B7w8c" version="21.6.8" type="github">
   <diagram name="第 1 页" id="7BLzQStU7AodYiW3KN75">
-    <mxGraphModel>
+    <mxGraphModel dx="1706" dy="657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BRebZ84E2iHo8YMvpLch-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=70;exitDy=80;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BRebZ84E2iHo8YMvpLch-1" target="BRebZ84E2iHo8YMvpLch-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRebZ84E2iHo8YMvpLch-8" value="选取的字段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BRebZ84E2iHo8YMvpLch-7">
+          <mxGeometry x="0.2231" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BRebZ84E2iHo8YMvpLch-1" value="列字段拖拽框" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BRebZ84E2iHo8YMvpLch-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BRebZ84E2iHo8YMvpLch-2" target="BRebZ84E2iHo8YMvpLch-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRebZ84E2iHo8YMvpLch-2" value="sql执行语句" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BRebZ84E2iHo8YMvpLch-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=70;exitDy=80;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BRebZ84E2iHo8YMvpLch-3" target="BRebZ84E2iHo8YMvpLch-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRebZ84E2iHo8YMvpLch-10" value="开启下钻后执行的字段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BRebZ84E2iHo8YMvpLch-9">
+          <mxGeometry x="-0.0533" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BRebZ84E2iHo8YMvpLch-3" value="下钻字段拖拽框" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BRebZ84E2iHo8YMvpLch-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=70;exitDy=80;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BRebZ84E2iHo8YMvpLch-4" target="BRebZ84E2iHo8YMvpLch-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRebZ84E2iHo8YMvpLch-4" value="antd-table组件" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="489" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BRebZ84E2iHo8YMvpLch-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BRebZ84E2iHo8YMvpLch-5" target="BRebZ84E2iHo8YMvpLch-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BRebZ84E2iHo8YMvpLch-5" value="css文件" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="489" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BRebZ84E2iHo8YMvpLch-11" value="页面展示操作" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="340" y="609" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BRebZ84E2iHo8YMvpLch-18" value="业务逻辑处理" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
